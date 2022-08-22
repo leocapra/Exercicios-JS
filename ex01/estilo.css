@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */ 
+
+header {
+    margin-top:80px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 250%;
+    color: white;
+    padding: 15px;
+}
+
+/* body */ 
+
+body {
+    background-color: rgb(255, 210, 86);
+}
+
+
+
+/* Section */
+
+section {
+    background-color: white;
+    max-width: 750px;
+    min-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26)
+}
+
+section h1 {
+    background-color: rgb(255, 207, 51);
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.26);
+    margin: 0px 0px 30px 0px;
+    font-size: 190%;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 205, 42);
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.26);
+    margin: 0px 0px 30px 0px;
+    font-size: 20px;
+}
+
+/* divs */
+
+.most {
+    margin-top: 40px;
+}
+
+button#enviar {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 40%;
+    background-color: rgb(255, 200, 21);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.26);
+    color: white;
+    transition: 0.6s;
+}
+
+button#enviar:hover {
+    transform: scale(1.2);
+}
+
+
+/* Footer */
+
+footer h1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
