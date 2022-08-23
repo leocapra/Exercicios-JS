@@ -85,8 +85,17 @@ button#enviar:hover {
     transform: scale(1.2);
 }
 
-.res01 {
+.res {
     display: flex;
+    justify-content: space-between;
+}
+
+.res01 {
+    margin: 10px;
+}
+
+.res02 {
+    margin: 10px;
 }
 
 
