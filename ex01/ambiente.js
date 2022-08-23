@@ -6,6 +6,7 @@ function clicou() {
     let num = Number(numero.value)
     let divisao01 = document.querySelector('div.res01')
     let divisao02 = document.querySelector('div.res02')
+
     divisao01.innerHTML = ``
     divisao02.innerHTML = ``
     if (num === 0) {
