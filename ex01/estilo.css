@@ -85,6 +85,10 @@ button#enviar:hover {
     transform: scale(1.2);
 }
 
+.res01 {
+    display: flex;
+}
+
 
 /* Footer */
 
